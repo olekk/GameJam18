@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1519755087 source:c:\users\olek\documents\cppprojects\rand\main.cpp
+1519769230 source:c:\users\olek\documents\cppprojects\rand\main.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<windows.h>
 	<iostream>
+	<string>
 	<sftools/Chronometer.hpp>
 
 1486736397 c:\codeblocks\sfml\include\sfml\graphics.hpp
