@@ -25,41 +25,41 @@ String Poziom1[H] = {
 "0                                                                    kkkkkkkkk   k        k                                        k        cccccccc 0",
 "0                                                                             k  k                    k       k                k            cccccccc 0",
 "0                                                                                k           k    k                        k                kkkkkkkk 0",
-"0                                                          kk             kkkkkkkk                                      k                            0",
-"0                                                    kk          k    k                                            k                                 0",
+"0                                                          kk             kkkkkkkk                                 k    k                            0",
+"0                                                    kk          k    k                                                                              0",
 "0                                         kkkkkkk                kkkkkk                                                                              0",
 "0                                         k                                                                                                          0",
 "0                                         k              k           k          k        k      k            k             k         k         k     0",
-"0      kkkk   k    k   k   k   k kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk0",
+"0       kkk   k    k   k   k   k kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk0",
 "0         k                      k                                                                                                                   0",
 "0   k     k                      k                                                                     kkk   kkk   kkk  kkk     kkkkk  kkk  kkk      0",
 "0         k                      k                                                                    k   k k   k k   k k  k    k     k   k k  k     0",
-"0        kk                      k                                                                    k     k   k k   k k  k    k     k   k k k      0",
-"0         k      k               k                                                                    k  kk k   k k   k k  k    k     k   k kk k     0",
-"0 k       k                      k                                                                    k   k k   k k   k k  k    k   k k   k k  k     0",
-"0         k   k       k          k                                                                     kkk   kkk   kkk  kkk      kkk   kkk  kkk      0",
-"0       k k                      k                                                                                                                   0",
-"0         k               k      k                                                                                                                   0",
-"0 k       k   k              k   k                                                                                                                   0",
+"0         k                      k                                                                    k     k   k k   k k  k    k     k   k k k      0",
+"0       k k      k               k                                                                    k  kk k   k k   k k  k    k     k   k kk k     0",
+"0         k           k          k                                                                    k   k k   k k   k k  k    k   k k   k k  k     0",
+"0   k     k               k      k                                                                     kkk   kkk   kkk  kkk      kkk   kkk  kkk      0",
+"0         k                      k                                                                                                                   0",
+"0         k                      k                                                                                                                   0",
+"0    k    k   k              k   k                                                                                                                   0",
 "0             k                  k                                                     0                                                             0",
-"0kkkkkkkkkkkkkk                k k                                                     0                                                             0",
+"0kkkkkkkkkkkkkk                  k                                                     0                                                             0",
 "0                         k      k                                                     0                                                             0",
 "0                     k          k                                                     0                                                             0",
 "0                                k                                                     0                                                             0",
 "0           kkkkkk               k                                                     0                                                             0",
-"0      k                         k             k                          kkkkkkkkkkk  0                                                             0",
-"0                                k   0          k                        k           k 0                                                             0",
-"0   k                            k   kkkkkkkkkkkkk                       k           k 0                                                             0",
-"0                                k              k                   0000k kkk kkkk    k                                                              0",
-"0       k   k    k          k    k             k                    0   k  kk   kk kk  k                                                             0",
-"0       kkkkk    kkkkkkkkkkkk                                     00     k k  k     kk k                                                             0",
-"0                                      k                         0       k  kk   kkk k k                                                             0",
-"0                                kkkkkkk                         0       kkkkkkkk k   k                                                              0",
-"0                            k   k      0000000kkkkkkkkkkkkkkkkkk        k k k k k   k                                                               0",
-"0        kk   kkk  k       k     k                                      k kkkkkkk   k                                                                0",
-"0                  kkkkkkkkk     k                                      k         kk                                                                 0",
-"0    k                    k      k                                      k     kkkk                                                                   0",
-"0                         k      k                                       kkkkk                                                                       0",
+"0      k                         k             k                          rrrrrrrrrrr  0                                                             0",
+"0                                k   0          k                        r           r 0                                                             0",
+"0   k                            k   kkkkkkkkkkkkk                       r           r 0                                                             0",
+"0                                k              k                   0000r rrr rrrr    r                                                              0",
+"0       k   k    k          k    k             k                    0   r  rr   rr rr  r                                                             0",
+"0       kkkkk    kkkkkkkkkkkk                                     00     r r  r     rr r                                                             0",
+"0                                      k                         0       r  rr   rrr r r                                                             0",
+"0                                kkkkkkk                         0       rrrrrrrr r   r                                                              0",
+"0                            k   k      0000000kkkkkkkkkkkkkkkkkk        r r r r r   r                                                               0",
+"0        kk   kkk  k             k                                      r rrrrrrr   r                                                                0",
+"0                  kkkkkkkkk     k                                      r         rr                                                                 0",
+"0    k                    k      k                                      r     rrrr                                                                   0",
+"0                         k      k                                       rrrrr                                                                       0",
 "0                         k      k                                                                                                                   0",
 "0  k  kkkkkkkkkkkkkkkkkkkkk      k                                                                                                                   0",
 "0                                k                                                                                                                   0",
@@ -71,8 +71,8 @@ String Poziom1[H] = {
 "0                         kkk    k                                                                                                                   0",
 "0            kkkkkkkkkkkk        k                                                                                                                   0",
 "0                       k        k                                                                                                                   0",
+"0     kkkkkkkkkkkkk     k        k                                                                                                                   0",
 "0                       k        k                                                                                                                   0",
-"0       kkkkkkkkkkkkk   k        k                                                                                                                   0",
 "0                       k        k                                                                                                                   0",
 "0             kkkkkkkkkkk        k                                                                                                                   0",
 "0                                k                                                                                                                   0",
@@ -172,7 +172,7 @@ String Poziom2[H] = {   //mapa 150x80
 "0                           kk                                                 kk                                                                    0",
 "0                           kk                                         kk      kk                                                                    0",
 "0                           kk                                                 kk                                                                    0",
-"0                           kk                                   kk            kk                                                                    0",
+"0                           kk                                   kkk           kk                                                                    0",
 "0                           kk                                                 kk                                                                    0",
 "0                           kk           kk       kk       kk                  kk                                                                    0",
 "0                           kk     kk                                          kk                                                                    0",
@@ -184,81 +184,81 @@ String Poziom2[H] = {   //mapa 150x80
 String Poziom4[H] = {
 "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
 "0                                                                                                                                                    0",
-"0                                                                                         cccccc                                                     0",
-"0                                                                                         cccccc                                                     0",
-"0                             k      k        k               k                     k     kkkkkk                                                     0",
-"0                             kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk                                                                0",
-"0                    k                                                                                                                               0",
-"0                k                                                                                                                                   0",
-"0           k                                                                                                                                        0",
+"0                                      k   k kkkkk k     k        kkk    kkkk  k   k kkkkk   kk                                                      0",
+"0                                      k   k k     k     k        k  k  k    k kk  k k       kk                                                      0",
+"0                                      k   k kkk   k     k        k   k k    k k k k kkk     kk                                                      0",
+"0                                      k k k k     k     k        k  k  k    k k  kk k                                                               0",
+"0                                       k k  kkkkk kkkkk kkkkk    kkk    kkkk  k   k kkkkk   kk                                                      0",
+"0                                                                                                                                                    0",
+"0                                                                                       cccccccc                                                     0",
+"0                                                                                       cccccccc                                                     0",
+"0                           kkk      k        k               k                         kkkkkkkk                                                     0",
+"0                   kkk       kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk                                                                0",
+"0                                                                                                                                                    0",
+"0                                          000000000000000000000000000000000000000000000000000000000000                                              0",
+"0               kkk                        0                                                          0                                              0",
+"0                                          0                                                          0                                              0",
+"0                                                                               k00000000000000k      0                                              0",
+"0            kkk                                       k00000000000000000k      0                     0                                              0",
+"0                                                      0                        0                     0                                              0",
+"0                 kkkkkkkkkkkkkkk                      0                        0              k0000000                                              0",
+"0                                  kkkkk                                        0                                                                    0",
+"0                                  kkkkk                                        0                                                                    0",
+"0                                       000k000000000000000k     k      000000000  000000000000k                                                     0",
+"0                                          0                     0                 0                                                                 0",
+"0                                          00000000000000000000000000000000000000000000000000000000000kkkk   kkkkkkk                                 0",
+"0                                                                                                                                                    0",
+"0                                                                                                                        kkkk                        0",
 "0                                                                                                                                                    0",
 "0                                                                                                                                                    0",
+"0                                                                                                                               kk                   0",
+"0                                                                                k     k                                                             0",
+"0                                                                               kk     kk              k                                             0",
+"0                                        k                                     kkk     kkk                   k                     k                 0",
+"0                                        kkkkkkkkkkkkkkkkkkkk    kkkkkkkkkkkkkkkkk     kkkkkkkkkkkkkkk       kkkkkkkkkkkkkkkkkkkkkkk                 0",
+"0                                     k                                                                                                              0",
+"0                                k                                                                                                                   0",
 "0                                                                                                                                                    0",
-"0k                                                                                                                                                   0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                   k0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0k                                                                                                                                                   0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0       k                                                                                                                                            0",
-"0                                                                                                                                                    0",
-"0               k           k        k        k       k      k       k                                                     k                         0",
-"0                                                       kkkkkkkkk        k                                                              kkkkkkkkkkkk 0",
-"0                                                                          k                                      k         kkk                k     0",
-"0                                                                                                                           kk                 k    0",
-"0                                                                               k              k      k      k               kk                 k    0",
-"0                                                                                    k                                   k  kk  k   k          k     0",
-"0                                                                                                                         k kk k    k   k      k     0",
-"0                                                                                                                          kkkk     k          k     0",
-"0                                                                   k     k      k                                          kk      k       k  k     0",
+"0                                    k        k                                                                                                      0",
+"0                                    kkkkkkkkkk   kkk                k                                                                               0",
+"0                                                       kkkkkkkkk        k                                                                           0",
+"0                                                                                                                 k                            kkkkkk0",
+"0                                                                          k             k                                                     k     0",
+"0                                                                           kkkkk              k      k      k      k                          k     0",
+"0                                                                                    k                                   k                     k     0",
+"0                                                                                                                            k        k   k    k     0",
+"0                                         k         k                                                                         k     k          k     0",
+"0                                   k          k       k            kkkkkkkkkkkkkk                                                  k          k     0",
 "0                                                                                                                                   k          k     0",
-"0                   k           k     k     k     k     k     k                      k                                                  k  k   k     0",
-"0             k                                                                                                                      k         k     0",
-"0          k                                                  k                           k                                           k        k     0",
-"0                                                                                               k                               kkk k          k     0",
-"0      k       k k     k kk     k                       kkkkk      k                                                          kk    k   kkkk   k     0",
-"0       k       k       k       k                       k         kk                              kkkkkkkkkkkkkkkkkkkkkkkkkkkk      k          k     0",
-"0        k      kkk     k   k  kk                       k          k                              k                                 k          k     0",
-"0         k       kk   kk  k  k                         k     k    k                              k                                 k       k  k     0",
-"0          k        k k   k kk                          k          k                           kkkk                         kk      k          k     0",
-"0           k       kk kkkk                             k   k      k                           k                  k          k      k          k     0",
-"0            k                                          k        k k                           k       kkkkk                 k      kk        kk     0",
-"0             k       k  kk k                           k          k                        kkkk       k   k              k  k      k          k     0",
-"0              kkk  k  kkk k                            kk         k                        k          k   k                 k      k          k     0",
+"0              k k     k kk     k                       kkkkk      k                                                          kk    k   kkkk   k     0",
+"0               k       k       k                       k         kk                              kkkkkkkkkkkkkkkkkkkkkkkkkkkk      k          k     0",
+"0               kkk     k   k  kk                       k          k                              k                                 k          k     0",
+"0                 kk   kk  k  k                         k     k    k                              k                                 k       k  k     0",
+"0                   k     k kk                          k          k                           kkkk                         kk      k          k     0",
+"0                   kk  kkk                             k   k      k                           k                  k          k      k          k     0",
+"0                                                       k        k k                           k       kkkkk                 k      k         kk     0",
+"0                     kkkkk k                           k          k                        kkkk       k   k              k  k      k          k     0",
+"0                    k kkk k                            kk         k                        k          k   k                 k      k          k     0",
 "0                     k  k  kk                          k   k      k                        k       kkkk   kkkk    k         k      k     k    k     0",
-"0                      k  kk                            k    k     k                     kkkk       k         k              k      k          k     0",
-"0                     k  k kk    k                      k          k                     k          k         k       k      k      kk      k  k     0",
-"0                    k k k k                            k          k                     k       kkkk         kkkk           k      k          k     0",
-"0                   kk  k  kk                           k      k   k                  kkkk       k               k          kk      k          k     0",
+"0                      k  kk                            k          k                     kkkk       k         k              k      k          k     0",
+"0                     k    kk    k                      k          k                     k          k         k       k      k      kk      k  k     0",
+"0                    k     k                            k    k     k                     k       kkkk         kkkk           k      k          k     0",
+"0                   kk     kk                           k          k                  kkkk       k               k          kk      k          k     0",
 "0           kkkkkkkkkkkkkkkkkkkkkkkkkk      k           k          k                  k          k               k           k      k k        k     0",
-"0                                                       k   k      k                  k       kkkk               kkkk    k   k      k          k     0",
-"0                                      k         k      k          k               kkkk       k                     kk       k      k    k     k     0",
+"0                                                       k          k                  k       kkkk               kkkk    k   k      k          k     0",
+"0                                      k         k      k     k    k               kkkk       k                     kk       k      k    k     k     0",
 "0kkkkkkkkkkk         kkkkkkkkkkkk      kkkkkkkkkkk      k          k                          k                     k        kkkk   k          k     0",
-"0                               k                       k       k  k                       kkkk                     kkkk        k   k          k     0",
+"0                               k                       k          k                       kkkk                     kkkk        k   k          k     0",
 "0              k                k                       k          k                                                   k k      k   k      k   k     0",
 "0                               kkkkkkkkkkkkkkkkkkkkkkkkk  k       kkkkkkkkkkkkkk                                      k        k   k          k     0",
 "0kkkkkkkkkkkkkkkkkkkkkk                                                               k                                kkkk   k     k         kk     0",
 "0                     k     k                                                                                             k         k          k     0",
 "0                     k                                       k                                kk                         k                k   k     0",
-"0                     kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk          kkkk                  k           kk                   kkkk                 k     0",
+"0                     kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk         kkkkk                  k           kk                   kkkk                 k     0",
 "0                                                                                                           k        k       kk         k      k     0",
 "0                                                                          kk                               kkkkkkkkkk       k                 k     0",
-"0                           k    k           k          k         k                                                          kkkkkkkkkkkkkkkkkkk     0",
+"0                           k    k           k          k        k                                                           kkkkkkkkkkkkkkkkkkk     0",
 "0                     k          k        k        k        k        k           k            k           k            k                             0",
-"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
-"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"
@@ -272,25 +272,25 @@ String Poziom3[H] = {
 "0                                                                                                                                                    0",
 "0                                                                                                                                                    0",
 "0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
-"0                                                                                                                                                    0",
+"0                 cccccccc                                                                                                                           0",
+"0                 cccccccc                                                                                                                           0",
 "0                 kkkkkkkk     kkkk                                                                                                                  0",
 "0                                     k                                                                                          kkkkkk              0",
 "0                                                                                           kkk       kkkkkk                    k      k             0",
 "0                                       kk                                         kkkkk   k   kkk   k      k               kkkk        kk           0",
 "0                              kkkk                                               k     k k       kkk        k            kk              k          0",
-"0                           kkk   kkk                                            k       k                    k     k      k              k          0",
-"0                          k   kkk   k      k            kkkkkkk                k                              k            kkkkkkkkkkkkkk           0",
+"0                           kkk   kkk                                            k       k                    k            k              k          0",
+"0                          k   kkk          k            kkkkkkk                k                              k            kkkkkkkkkkkkkk           0",
 "0                         k   k                         k       k        kkk   k                               kk                                    0",
-"0                        k   k          kk         k kkk         kkkk           k                                kk                 kkkkkkkkkkk      0",
-"0                        k   k      kk           k                   k          k                                 kk                          k      0",
+"0                        k   k                     kkkkk         kkkk           k                                kk                 kkkkkkkkkkk      0",
+"0                        k   k                   kk                  k          k                                 kk                          k      0",
 "0                        k   k                  k                     k          kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk      kkkkk                k      0",
-"0                         k   k            kk   k                     k                                                                       k      0",
-"0                          k    kk   k          k                     k                                                          k   k        k      0",
+"0                         k   k                 k                     k                                                                       k      0",
+"0                          k   kkk              k                     k                                                         kk   k        k      0",
 "0                           kkk   kkk            kkkkkkkkkkkkkkkkkkkkk                                                           k            k      0",
 "0                              kkkk                                                                                              kk           k      0",
 "0                                                                                                                                k    kk      k      0",
-"0                                                                                                                                k         kk k      0",
+"0                                                                                                                                k            k      0",
 "0                                                                                                                                k            k      0",
 "0                                                                                                                                k     kkk    k      0",
 "0                                                                                                                                k            k      0",
@@ -298,28 +298,28 @@ String Poziom3[H] = {
 "0                                                                                                                                k   k        k      0",
 "0                                                                                                                                k            k      0",
 "0                                                                                                                                k            k      0",
-"0                                                 kk   kkkkk                                                                     k        k   k      0",
+"0                                                 kk   kkkkk                                                                     k     k      k      0",
 "0                                           kk        k     k                                                                    k            k      0",
 "0                                                    k       k     kkk                                                           k            k      0",
-"0                       kkkkkkkkkkkkkkkkk            k       k                                                                   kk           k      0",
-"0           kkkkkk                                   k       k                                                                   k            k      0",
+"0                     kkkkkkkkkkkkkkkkkkk            k       k                                                                   k            k      0",
+"0          kkkkkkk                                   k       k                                                                   k    k       k      0",
 "0   k                                                k       k             kkkkkk                                                k            k      0",
 "0k  k                                                k       k            kk  k  k                                               k        k   k      0",
 "0   k                                                k       k           k  k   k  k                                             k            k      0",
 "0   k                              kkkkkkkkkkkk      k       k        kkk k      k  k                                            k            k      0",
-"0  k                              k    kkk     k      k     k        k  kk         k  k                                          k    k       k      0",
-"0                                k   kk   kk     k     kkkkk      kkk  k             kk                                          k            k      0",
+"0  k                              k    kkk     k      k     k        k  kk         k  k                                          k            k      0",
+"0                                k   kk   kk     k     kkkkk      kkk  k             kk                                          k           kk      0",
 "0                                kkkk       k  k   kkkkkkkkkkkkk   kk k               k                                          k            k      0",
-"0k        k                      kk           k  kkk    k k    kkk  kk                k                                          k        k   k      0",
+"0k        k                      kk           k  kkk    k k    kkk  kk                k                                          k            k      0",
 "0kkkkkkkkkk                     kk               k      k k      k                   k      kkk                                  k            k      0",
-"0             kk             k   k               k      kkk      k                                                               k            k      0",
-"0                             kkk                k  k   k k   k  k                                                               k  k         k      0",
-"0                  kkk                           k  k   k k   k  k                      k                                        k            k      0",
+"0             kk             k   k               k      kkk      k                                                               k           kk      0",
+"0                             kkk                k  k   k k   k  k                                                               k            k      0",
+"0                  kkk                           k  k   k k   k  k                      k                                        k    k       k      0",
 "0                                       kkkkkk   k  k   k k   k  k  kkkkkk                                                       k            k      0",
-"0                    kkk              kk     k   k  k   k k   k  k  k     k                      kkkk                            k        k   k      0",
+"0                    kkk              kk     k   k  k   k k   k  k  k     k                      kkkk                            k            k      0",
 "0               kkkkkk       kk      k   kkkkk   k  k   k k   k  k  kkkk   k                                                     k            k      0",
-"0             kkkk                  kk  kk       k  k   k k   k  k      k    k       kkkkkkkkk                                   k            k      0",
-"0            k  kk                 kk   k        k  k    k    k  k       kk    kk kk          kk                                 k    k       k      0",
+"0             kkkk                  kk  kk       k  k   k k   k  k      k    k       kkkkkkkkk                                   k      k     k      0",
+"0            k  kk                 kk   k        k  k    k    k  k       kk    kk kk          kk                                 k            k      0",
 "0      kk    k   kk               k   k          k  k    kk   k  k        k      k    kkkkk     kkk     kkkkk                    k            k      0",
 "0             k    kkkk          k   k           k  k    k    k  k         kkk     kkk     kk      k                             k          k k      0",
 "0 kk           k       kkk       k   k           k  k    kk   k  k           kkkkkk          kkk    k                                         k      0",
@@ -328,20 +328,20 @@ String Poziom3[H] = {
 "0     kk               k     kkkk   k            k  k  k   k  k  k                                k    k                                             0",
 "0                       kkk      kkk      k      k  k k     k k  k                                 k    k                                            0",
 "0 kk                       kkkkkk                k  kk       kk  k                                  k   k                                            0",
-"0                                                kkkk   kkk   kkkk                                   k  k                                            0",
-"0    k        k                           kkkk   k  k   k k   k  k                                    k k                                            0",
-"0    kkkkkkkkkk     kk                           k  k   k k   k  k                                    kk                                             0",
-"0                                 kkkkk           kkk   k k   kkk                                  kkkk                                              0",
-"0                                                   k   k k   k                                   kk                                                 0",
-"0                        kkkk                       k   k k   k                                                                                      0",
-"0                                                   k   k k   k                                                                                      0",
-"0                                kkkk               k   k k   k                                                                                      0",
-"0                                                   k   k k   k                                                                                      0",
-"0                                       k     k     k   k k   k                                                                                      0",
-"0                                       kkkkkkk     k   k k   k                                                                                      0",
-"0                                                  kkkkkk kkkkkk                                                                                     0",
-"0                                 kk              k     k k     k                                                                                    0",
-"0                                                kkkkkkkk kkkkkkkk                                                                                   0",
+"0                                                kkkk   kkk   kkkk                                   k  k0                                           0",
+"0    k        k                           kkkk   k  k   k k   k  k                                    k k0                                           0",
+"0    kkkkkkkkkk     kk                           k  k   k k   k  k                                    kk 0                                           0",
+"0                                 kkkkk           kkk   k k   kkk                                  kkkk   0                                          0",
+"0                                                   k   k k   k                                   kk      0                                          0",
+"0                        kkkk                       k   k k   k                                           0                                          0",
+"0                                                   k   k k   k                                            0                                         0",
+"0                                kkkk               k   k k   k                                            0                                         0",
+"0                                                   k   k k   k                                            0                                         0",
+"0                                       k     k     k   k k   k                                             0                                        0",
+"0                                       kkkkkkk     k   k k   k                                             0                                        0",
+"0                                                  kkkkkk kkkkkk                                            0                                        0",
+"0                                 kk              k     k k     k                                            0                                       0",
+"0                                                kkkkkkkk kkkkkkkk                                           0                                       0",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"
@@ -350,6 +350,11 @@ String Poziom3[H] = {
 String TileMap[H];
 
 int aktualnyPoziom =1;
+bool cheat=0;
+bool booltutorial=0;
+bool boolwinscreen=0;
+bool boolcredits=0;
+bool pauza=1;
 
 
 class PLAYER {
@@ -365,7 +370,7 @@ float currentFrame;     //aktualna klatka animacji
     PLAYER(Texture &image)  //konstruktor i referencja na teskture podan¹ w main
    {
 	sprite.setTexture(image);
-	rect = FloatRect(3*16,66*16,16,16);    //tekstura gracza                                      //SPAWN   (3*16,66*16,16,16)
+	rect = FloatRect(30*16,66*16,16,16);    //tekstura gracza                                      //SPAWN   (3*16,66*16,16,16)
 
 	dx=dy=0.1;
 	currentFrame = 0;       //klatka animacji 0
@@ -419,13 +424,16 @@ float currentFrame;     //aktualna klatka animacji
 
 				 if (TileMap[i][j]=='c') {
                                                 ++aktualnyPoziom;
+                                                if(aktualnyPoziom>5) aktualnyPoziom=1;
                                                 switch(aktualnyPoziom)
                                                 {
-                                                    case 1: { rect.left=3*16; rect.top=66*16; break; }
+                                                    case 1: { rect.left=30*16; rect.top=66*16; break; }
                                                     case 2: { rect.left=32*16; rect.top=66*16; break; }
-                                                    case 3: { rect.left=10*16; rect.top=70*16; break; }
-                                                    case 4: { rect.left=3*16; rect.top=70*16; break; }
+                                                    case 3: { rect.left=30*16; rect.top=70*16; break; }
+                                                    case 4: { rect.left=15*16; rect.top=70*16; break; }
+                                                    case 5: { boolwinscreen=true; pauza=true;}
                                                 }
+                                                offsetX = rect.left-400; offsetY = rect.top - 408;
 			                          	 }
 			 }
 
@@ -518,9 +526,14 @@ int main()
 
     RenderWindow window(VideoMode(800, 600), "SFML works!");
 
-    bool pauza=1;
+    Texture niebo;
+    niebo.loadFromFile("pattern.png");
+    Sprite pattern(niebo);
+
     Font agency;
+    Font matura;
     agency.loadFromFile("AGENCYB.TTF");
+    matura.loadFromFile("MATURA.TTF");
     RectangleShape *przycisk = new RectangleShape[4];
     RectangleShape zaslona(Vector2f(800, 600));
     zaslona.setFillColor(Color::Black);
@@ -532,7 +545,7 @@ int main()
 
     for(int i=0;i<4;i++) //prostokaty przyciskow i ich napisy
     {
-        przycisk[i].setFillColor(Color::Green);
+        przycisk[i].setFillColor(Color::Black);
         przycisk[i].setSize(Vector2f(300, 50));
         przycisk[i].setPosition(250,(i*80)+130 );
 
@@ -541,7 +554,7 @@ int main()
     }
 
     RectangleShape nextprzy(Vector2f(150,75));
-    nextprzy.setFillColor(Color::Green);
+    nextprzy.setFillColor(Color::Black);
     nextprzy.setPosition(600,130);
     Text nextnapi;
     nextnapi.setFont(agency);
@@ -550,27 +563,41 @@ int main()
     nextnapi.setPosition(610, 130);
 
     //nie-przyciski
-    napis[4].setCharacterSize(70);
+    napis[4].setCharacterSize(80);
+    napis[4].setFont(matura);
     napis[5].setCharacterSize(70);
-    napis[4].setPosition(260, 10);
+    napis[4].setPosition(235, 10);
     napis[5].setPosition(255, 470);
     napis[5].setColor(Color(237, 28,36));
 
-    napis[4].setString("Nazwa gry");
-    napis[0].setString("Graj od nowa");
-    napis[1].setString("Kontynuuj");
-    napis[2].setString("Jak grac");
+    napis[4].setString("Pazienza");
+    napis[0].setString("Play again");
+    napis[1].setString("Resume");
+    napis[2].setString("Game Tutorial");
     napis[3].setString("Credits");
-    napis[5].setString("Powodzenia!");
+    napis[5].setString("Good luck!");
 
 	Texture tileSet;
-	tileSet.loadFromFile("Mario_Tileset.png");
+	tileSet.loadFromFile("tileset.png");
+
+	Image ikona;
+	ikona.loadFromFile("favicon.ico");
+	window.setIcon(16, 16, ikona.getPixelsPtr());
+
+    Texture tutor;
+    tutor.loadFromFile("tutorial.png");
+    Sprite tutorial(tutor);
+    tutorial.setPosition(0,0);
+
+    Texture winscre;
+    winscre.loadFromFile("winscreen.png");
+    Sprite winscreen(winscre);
+    winscreen.setPosition(0,0);
 
     Texture napisykoncowe;
-    napisykoncowe.loadFromFile("creditstemp.png");
+    napisykoncowe.loadFromFile("credits.png");
     Sprite credits(napisykoncowe);
     credits.setPosition(0,0);
-    bool boolcredits=0;
 
 	PLAYER Mario(tileSet);      //wyslanie tekstury
 
@@ -580,13 +607,13 @@ int main()
 	SoundBuffer buffer;
 	buffer.loadFromFile("Jump.ogg");
 	Sound sound(buffer);
-	sound.setVolume(30);
+	sound.setVolume(100);
 
     Music music;
-    music.openFromFile("Mario_Theme.ogg");
+    music.openFromFile("Theme.ogg");
     music.play();
     music.setLoop(1);
-    music.setVolume(50);
+    music.setVolume(100);
 
     Text licznik;
     licznik.setFont(agency);
@@ -624,6 +651,8 @@ int main()
                 if(pauza) pauza=false;
                 else pauza=true;
                 boolcredits=false;
+                booltutorial=false;
+                boolwinscreen=false;
             }
 
             if (event.type == Event::KeyPressed && event.key.code == Keyboard::M)
@@ -636,23 +665,31 @@ int main()
                przycisk[0].getGlobalBounds().contains(Mouse::getPosition(window).x, Mouse::getPosition(window).y) && pauza) //Graj od nowa
             {
                 aktualnyPoziom=1;
-                Mario.rect.left=12*16; Mario.rect.top=70*16;
+                Mario.rect.left=30*16; Mario.rect.top=70*16;
+                offsetX = Mario.rect.left-400; offsetY = Mario.rect.top - 408;
                 if(pauza) pauza=false;
-                else { pauza=true; boolcredits=false; }
+                else { pauza=true; boolcredits=false; booltutorial=false; boolwinscreen=false;}
                 zegargry.reset();
+            }
+
+            if( event.type == Event::MouseButtonPressed && event.mouseButton.button == Mouse::Left &&
+               Keyboard::isKeyPressed(Keyboard::F5) && !pauza) //cheat
+            {
+                cheat=true;
             }
 
             if( event.type == Event::MouseButtonReleased && event.mouseButton.button == Mouse::Left &&
                przycisk[1].getGlobalBounds().contains(Mouse::getPosition(window).x, Mouse::getPosition(window).y) && pauza) //Kontynuuj
             {
                 if(pauza) pauza=false;
-                else { pauza=true; boolcredits=false; }
+                else { pauza=true; boolcredits=false; booltutorial=false; boolwinscreen=false; }
             }
 
             if( event.type == Event::MouseButtonReleased && event.mouseButton.button == Mouse::Left &&
                przycisk[2].getGlobalBounds().contains(Mouse::getPosition(window).x, Mouse::getPosition(window).y) && pauza) //Jak grac
             {
                 //Jak grac, wyswietla grafike
+                booltutorial=true;
             }
 
             if( event.type == Event::MouseButtonReleased && event.mouseButton.button == Mouse::Left &&
@@ -669,16 +706,26 @@ int main()
 
                 switch(aktualnyPoziom)
                 {
-                    case 1: { Mario.rect.left=3*16; Mario.rect.top=66*16; break; }
+                    case 1: { Mario.rect.left=30*16; Mario.rect.top=66*16; break; }
                     case 2: { Mario.rect.left=32*16; Mario.rect.top=66*16; break; }
-                    case 3: { Mario.rect.left=10*16; Mario.rect.top=70*16; break; }
+                    case 3: { Mario.rect.left=30*16; Mario.rect.top=70*16; break; }
+                    case 4: { Mario.rect.left=30*16; Mario.rect.top=70*16; break; }
                 }
+                offsetX = Mario.rect.left-400; offsetY = Mario.rect.top - 408;
                 if(pauza) pauza=false;
-                else { pauza=true; boolcredits=false; }
+                else { pauza=true; boolcredits=false; booltutorial=false; boolwinscreen=false;}
             }
         }
 
+        pattern.setPosition(-offsetX, -offsetY);
 
+        if(cheat)
+        {
+            cheat=false;
+            Mario.rect.left=Mouse::getPosition(window).x;
+            Mario.rect.top=Mouse::getPosition(window).y;
+            offsetX = Mario.rect.left-400; offsetY = Mario.rect.top - 408;
+        }
 
 		if (Keyboard::isKeyPressed(Keyboard::Left))    Mario.dx=-0.1;
 
@@ -716,14 +763,14 @@ int main()
         }
 
 
-
-
 		 if (Mario.rect.left>400 && Mario.rect.left<2000) offsetX = Mario.rect.left-400;           //
         if(Mario.rect.top< 1057 && Mario.rect.top> 400) offsetY = Mario.rect.top - 408;
 
 
 
 		 window.clear(Color(107,140,255));
+
+        window.draw(pattern);
 
 		 for (int i=0; i<H; i++)
 			 for (int j=0; j<W; j++)
@@ -736,13 +783,13 @@ int main()
 
 				if (TileMap[i][j]=='t')  tile.setTextureRect( IntRect(0,47,32,95-47) );
 
-				if (TileMap[i][j]=='g')  tile.setTextureRect( IntRect(0,16*9-5,3*16,16*2+5) );
+				if (TileMap[i][j]=='g')  tile.setTextureRect( IntRect(0,16*9-5,3*16,16*2+5) );  //górka
 
-				if (TileMap[i][j]=='G')  tile.setTextureRect( IntRect(145,222,222-145,255-222) );
+				if (TileMap[i][j]=='G')  tile.setTextureRect( IntRect(145,222,222-145,255-222) );   //armaty
 
 			    if (TileMap[i][j]=='d')  tile.setTextureRect( IntRect(0,106,74,127-106) );
 
-				if (TileMap[i][j]=='w')  tile.setTextureRect( IntRect(99,224,140-99,255-224) );
+				if (TileMap[i][j]=='w')  tile.setTextureRect( IntRect(99,224,140-99,255-224) ); //chmura
 
 				if (TileMap[i][j]=='r')  tile.setTextureRect( IntRect(143-32,112,16,16) );
 
@@ -752,7 +799,10 @@ int main()
 		        window.draw(tile);
 		     }
 
-        cout<<aktualnyPoziom;
+        //cout<<aktualnyPoziom;
+
+
+
 		window.draw(Mario.sprite);
 	    window.draw(licznik);
         if(pauza)
@@ -766,6 +816,9 @@ int main()
         }
 
         if(boolcredits && pauza) window.draw(credits);
+        if(booltutorial && pauza) window.draw(tutorial);
+        if(boolwinscreen && pauza) { window.draw(winscreen); window.draw(licznik); }
+
 		window.display();
     }
 
