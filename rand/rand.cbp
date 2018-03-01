@@ -45,12 +45,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="C:/CodeBlocks/sfml/include" />
+			<Add directory="D:/CodeBlocks/sfml/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-static" />
 			<Add option="-static-libgcc" />
-			<Add directory="C:/CodeBlocks/sfml/lib" />
+			<Add directory="D:/CodeBlocks/sfml/lib" />
 		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>

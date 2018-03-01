@@ -11,6 +11,22 @@ using namespace sftools;
 
 float offsetX=0, offsetY=0;
 
+                string to_string(int n)
+                {
+                     string tmp, ret;
+                     if(n < 0) {
+                      ret = "-";
+                      n = -n;
+                     }
+                     do {
+                      tmp += n % 10 + 48;
+                      n -= n % 10;
+                     }
+                     while(n /= 10);
+                     for(int i = tmp.size()-1; i >= 0; i--)
+                      ret += tmp[i];
+                     return ret;
+                }
 
 const int H = 80;   //wysokosc mapy
 const int W = 150;  //szerokosc
@@ -47,7 +63,7 @@ String Poziom1[H] = {
 "0                     k          k                                                     0                                                             0",
 "0                                k                                                     0                                                             0",
 "0           kkkkkk               k                                                     0                                                             0",
-"0      k                         k             k                          rrrrrrrrrrr  0                                                             0",
+"0      k                         k        G    k                          rrrrrrrrrrr  0                                                             0",
 "0                                k   0          k                        r           r 0                                                             0",
 "0   k                            k   kkkkkkkkkkkkk                       r           r 0                                                             0",
 "0                                k              k                   0000r rrr rrrr    r                                                              0",
@@ -91,7 +107,7 @@ String Poziom1[H] = {
 "0                                k                                                                                                                   0",
 "0                    k           k                                                                                                                   0",
 "0                k               k                                                                                                                   0",
-"0            k                   k                                                                                                                   0",
+"0            k                   k       G                                                                                                           0",
 "0        k                       k                                                                                                                   0",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
@@ -102,7 +118,7 @@ String Poziom2[H] = {   //mapa 150x80
 "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
 "0                                                                                                                                                    0",
 "0                                                                                                                                                    0",
-"0                                                    ccccccccccc                                                                                     0",
+"0                                                    ccccccccccc                                                                             G       0",
 "0                                                    ccccccccccc                                                                                     0",
 "0                            k         k        k    kkkkkkkkkkk                                          k   k   k   k   k    k    k   k   kkkk     0",
 "0                 k    kkkkkkkkkkkkkkkkkkkkkkkk                                                                                                      0",
@@ -115,7 +131,7 @@ String Poziom2[H] = {   //mapa 150x80
 "0           k                    kk        kk     k    k    k     k                                                         k                        0",
 "0             kkk                         kk     k    k    k     k                         k                                 kkkk     k    k         0",
 "0                               kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk  kk                                   k                 0",
-"0                       kk                                                                            kk    k                     kk      k          0",
+"0                       kk                                                                            kk    k                      k      k          0",
 "0                 kk                                                                                                               k                 0",
 "0                                                                                                                           kkkkkkkk          k      0",
 "0                                                                                                                           k                        0",
@@ -161,7 +177,7 @@ String Poziom2[H] = {   //mapa 150x80
 "0                                    kk                      kk                                                                                      0",
 "0                                    kk                      kk                                                                                      0",
 "0                                    kk     k                kk                                                                                      0",
-"0                                    kk     kkkkkkkkkkkkkkkkkkk                                                                                      0",
+"0                                    kk     kkkkkkkkkkkkkkkkkkk       G                                                                              0",
 "0                                    kk                      kk                                                                                      0",
 "0                           kkkkkkkkkkkkk                    kkkkkkkkkkkkkkkkkkkk                                                                    0",
 "0                           kkkkkkkkkkk                      kkkkkkkkkkkkkkkkkkkk                                                                    0",
@@ -174,7 +190,7 @@ String Poziom2[H] = {   //mapa 150x80
 "0                           kk                                                 kk                                                                    0",
 "0                           kk                                   kkk           kk                                                                    0",
 "0                           kk                                                 kk                                                                    0",
-"0                           kk           kk       kk       kk                  kk                                                                    0",
+"0             G             kk           kk       kk       kk                  kk                                                                    0",
 "0                           kk     kk                                          kk                                                                    0",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
@@ -217,33 +233,33 @@ String Poziom4[H] = {
 "0                                        k                                     kkk     kkk                   k                     k                 0",
 "0                                        kkkkkkkkkkkkkkkkkkkk    kkkkkkkkkkkkkkkkk     kkkkkkkkkkkkkkk       kkkkkkkkkkkkkkkkkkkkkkk                 0",
 "0                                     k                                                                                                              0",
-"0                                k                                                                                                                   0",
-"0                                                                                                                                                    0",
+"0                                  k                                                                                                                 0",
+"0                                   k                                                                                                                0",
 "0                                    k        k                                                                                                      0",
-"0                                    kkkkkkkkkk   kkk                k                                                                               0",
+"0                                    kkkkkkkkkk   kkk                k                                                                          G    0",
 "0                                                       kkkkkkkkk        k                                                                           0",
 "0                                                                                                                 k                            kkkkkk0",
 "0                                                                          k             k                                                     k     0",
-"0                                                                           kkkkk              k      k      k      k                          k     0",
-"0                                                                                    k                                   k                     k     0",
-"0                                                                                                                            k        k   k    k     0",
-"0                                         k         k                                                                         k     k          k     0",
-"0                                   k          k       k            kkkkkkkkkkkkkk                                                  k          k     0",
-"0                                                                                                                                   k          k     0",
-"0              k k     k kk     k                       kkkkk      k                                                          kk    k   kkkk   k     0",
-"0               k       k       k                       k         kk                              kkkkkkkkkkkkkkkkkkkkkkkkkkkk      k          k     0",
-"0               kkk     k   k  kk                       k          k                              k                                 k          k     0",
-"0                 kk   kk  k  k                         k     k    k                              k                                 k       k  k     0",
-"0                   k     k kk                          k          k                           kkkk                         kk      k          k     0",
-"0                   kk  kkk                             k   k      k                           k                  k          k      k          k     0",
-"0                                                       k        k k                           k       kkkkk                 k      k         kk     0",
-"0                     kkkkk k                           k          k                        kkkk       k   k              k  k      k          k     0",
-"0                    k kkk k                            kk         k                        k          k   k                 k      k          k     0",
-"0                     k  k  kk                          k   k      k                        k       kkkk   kkkk    k         k      k     k    k     0",
-"0                      k  kk                            k          k                     kkkk       k         k              k      k          k     0",
-"0                     k    kk    k                      k          k                     k          k         k       k      k      kk      k  k     0",
-"0                    k     k                            k    k     k                     k       kkkk         kkkk           k      k          k     0",
-"0                   kk     kk                           k          k                  kkkk       k               k          kk      k          k     0",
+"0              kkk    kkkkkkkkkkkkkkkk                                      kkkkk              k      k      k      k                          k     0",
+"0                                    k                                                k                                  k                     k     0",
+"0                                    k   k                                                                                   k        k   k    k     0",
+"0           k                        k              k                                                                         k     k          k     0",
+"0           k                 kk     k         k       k            kkkkkkkkkkkkkk                                                  k          k     0",
+"0           kk                k      k                                                                                              k          k     0",
+"0           k                 k      k                  kkkkk      k                                                          kk    k   kkkk   k     0",
+"0           k     k           k   k  k                  k         kk                              kkkkkkkkkkkkkkkkkkkkkkkkkkkk      k          k     0",
+"0           k                 k      k                  k          k                              k                                 k          k     0",
+"0           k           k     k      k                  k     k    k                              k                                 k       k  k     0",
+"0           k                 kk     k                  k          k                           kkkk                         kk      k          k     0",
+"0           k                 k      k                  k   k      k                           k                  k          k      k          k     0",
+"0           k                 k      k                  k        k k                           k       kkkkk                 k      k         kk     0",
+"0                             k      k                  k          k                        kkkk       k   k              k  k      k          k     0",
+"0           kkkkkkkkkkkkkkkkkkkk     k                  kk         k                        k          k   k                 k      k          k     0",
+"0           k                        k                  k   k      k                        k       kkkk   kkkk    k         k      k     k    k     0",
+"0           k                        k                  k          k                     kkkk       k         k              k      k          k     0",
+"0           k      kkkkkkkkkkkkkkkkkkk                  k          k                     k          k         k       k      k      kk      k  k     0",
+"0           k                                           k    k     k                     k       kkkk         kkkk           k      k          k     0",
+"0           k                                           k          k                  kkkk       k               k          kk      k          k     0",
 "0           kkkkkkkkkkkkkkkkkkkkkkkkkk      k           k          k                  k          k               k           k      k k        k     0",
 "0                                                       k          k                  k       kkkk               kkkk    k   k      k          k     0",
 "0                                      k         k      k     k    k               kkkk       k                     kk       k      k    k     k     0",
@@ -254,10 +270,10 @@ String Poziom4[H] = {
 "0kkkkkkkkkkkkkkkkkkkkkk                                                               k                                kkkk   k     k         kk     0",
 "0                     k     k                                                                                             k         k          k     0",
 "0                     k                                       k                                kk                         k                k   k     0",
-"0                     kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk         kkkkk                  k           kk                   kkkk                 k     0",
+"0                     kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk         kkkkk                  k           kk        G          kkkk                 k     0",
 "0                                                                                                           k        k       kk         k      k     0",
 "0                                                                          kk                               kkkkkkkkkk       k                 k     0",
-"0                           k    k           k          k        k                                                           kkkkkkkkkkkkkkkkkkk     0",
+"0       G                   k    k           k          k        k                                                           kkkkkkkkkkkkkkkkkkk     0",
 "0                     k          k        k        k        k        k           k            k           k            k                             0",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
@@ -282,7 +298,7 @@ String Poziom3[H] = {
 "0                           kkk   kkk                                            k       k                    k            k              k          0",
 "0                          k   kkk          k            kkkkkkk                k                              k            kkkkkkkkkkkkkk           0",
 "0                         k   k                         k       k        kkk   k                               kk                                    0",
-"0                        k   k                     kkkkk         kkkk           k                                kk                 kkkkkkkkkkk      0",
+"0                        k   k                     kkkkk         kkkk           k            G                   kk                 kkkkkkkkkkk      0",
 "0                        k   k                   kk                  k          k                                 kk                          k      0",
 "0                        k   k                  k                     k          kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk      kkkkk                k      0",
 "0                         k   k                 k                     k                                                                       k      0",
@@ -340,7 +356,7 @@ String Poziom3[H] = {
 "0                                       k     k     k   k k   k                                             0                                        0",
 "0                                       kkkkkkk     k   k k   k                                             0                                        0",
 "0                                                  kkkkkk kkkkkk                                            0                                        0",
-"0                                 kk              k     k k     k                                            0                                       0",
+"0                                 kk              k     k k     k    G                                 G     0                                       0",
 "0                                                kkkkkkkk kkkkkkkk                                           0                                       0",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
 "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
@@ -524,7 +540,7 @@ int main()
 {
     for(int i=0;i<H;i++) TileMap[i]=Poziom1[i];
 
-    RenderWindow window(VideoMode(800, 600), "SFML works!");
+    RenderWindow window(VideoMode(800, 600), "Pazienza");
 
     Texture niebo;
     niebo.loadFromFile("pattern.png");
@@ -634,7 +650,7 @@ int main()
 		clock.reset();
 		clock.resume();
 
-		time = time/500;
+		time = time/650;
 
 		if (time > 20) time = 20;
 
@@ -658,7 +674,7 @@ int main()
             if (event.type == Event::KeyPressed && event.key.code == Keyboard::M)
             {
                 if(music.getStatus()==2 && sound.getVolume()>0){ music.pause(); sound.setVolume(0); }
-                else { music.play(); sound.setVolume(30); }
+                else { music.play(); sound.setVolume(100); }
             }
 
             if( event.type == Event::MouseButtonReleased && event.mouseButton.button == Mouse::Left &&
@@ -745,13 +761,6 @@ int main()
             zegargry.pause();
         }
 
-        for (int i=0; i<H; i++)
-			 for (int j=0; j<W; j++)
-			  {
-			      if (TileMap[i][j]=='c') {
-
-			      }
-			  }
 
         switch(aktualnyPoziom)
         {
@@ -781,15 +790,15 @@ int main()
 
    			    if (TileMap[i][j]=='c')  tile.setTextureRect( IntRect(143-16,112,16,16) );
 
-				if (TileMap[i][j]=='t')  tile.setTextureRect( IntRect(0,47,32,95-47) );
-
-				if (TileMap[i][j]=='g')  tile.setTextureRect( IntRect(0,16*9-5,3*16,16*2+5) );  //górka
-
 				if (TileMap[i][j]=='G')  tile.setTextureRect( IntRect(145,222,222-145,255-222) );   //armaty
 
-			    if (TileMap[i][j]=='d')  tile.setTextureRect( IntRect(0,106,74,127-106) );
+				//if (TileMap[i][j]=='t')  tile.setTextureRect( IntRect(0,47,32,95-47) );
 
-				if (TileMap[i][j]=='w')  tile.setTextureRect( IntRect(99,224,140-99,255-224) ); //chmura
+				//if (TileMap[i][j]=='g')  tile.setTextureRect( IntRect(0,16*9-5,3*16,16*2+5) );  //górka
+
+			    //if (TileMap[i][j]=='d')  tile.setTextureRect( IntRect(0,106,74,127-106) );
+
+				//if (TileMap[i][j]=='w')  tile.setTextureRect( IntRect(99,224,140-99,255-224) ); //chmura
 
 				if (TileMap[i][j]=='r')  tile.setTextureRect( IntRect(143-32,112,16,16) );
 
@@ -799,7 +808,7 @@ int main()
 		        window.draw(tile);
 		     }
 
-        //cout<<aktualnyPoziom;
+        cout<<aktualnyPoziom;
 
 
 
