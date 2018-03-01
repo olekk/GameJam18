@@ -3,5 +3,5 @@ do 1 marca
 
 Więzienie, armaty, światło
 
-wysle gotowy projekt
+Gra będzie updatowana zapraszam ponownie
 
