@@ -1,0 +1,80 @@
+0000000000000000000000000000000000000000000000000000000000                                                                                     0000000
+0                                                                                                                                                    0
+0                                                                                                                                                    0
+0                                                                                                                                                    0
+0                                                                       k  kkkkkkk                                                                   0
+0                                                                                k    k                   k                             k            0
+0                                                                    kkkkkkkkk   k        k                                        k        cccccccc 0
+0                                                                             k  k                    k       k                k            cccccccc 0
+0                                                                                k           k    k                        k                kkkkkkkk 0
+0                                                          kk             kkkkkkkk                                 k    k                            0
+0                                                    kk          k    k                                                                              0
+0                                         kkkkkkk                kkkkkk                                                                              0
+0                                         k                                                                                                          0
+0                                         k              k           k          k        k      k            k                       k         k     0
+0       kkk   k    k   k   k   k kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk0
+0         k                      k                                                                                                                   0
+0   k     k                      k                                                                     kkk   kkk   kkk  kkk     kkkkk  kkk  kkk      0
+0         k                      k                                                                    k   k k   k k   k k  k        k k   k k  k     0
+0         k                      k                                                                    k     k   k k   k k  k        k k   k k k      0
+0       k k      k               k                                                                    k  kk k   k k   k k  k        k k   k kk k     0
+0         k           k          k                                                                    k   k k   k k   k k  k    k   k k   k k  k     0
+0   k     k               k      k                                                                     kkk   kkk   kkk  kkk      kkk   kkk  kkk      0
+0         k                      k                                                                                                                   0
+0         k                      k                                                                                                                   0
+0    k    k   k              k   k                                                                                                                   0
+0             k                  k                                                     0                                                             0
+0kkkkkkkkkkkkkk                  k                                                     0                                                             0
+0                         k      k                                                     0                                                             0
+0                     k          k                                                     0                                                             0
+0                                k                                                     0                                                             0
+0           kkkkkk               k                                                     0                                                             0
+0      k                         k        G    k                          rrrrrrrrrrr  0                                                             0
+0                                k   0          k                        r           r                                                               0
+0   k                            k   kkkkkkkkkkkkk                       r           r 0000                                                          0
+0                                k              k                   0000r rrr rrrr    r                                                              0
+0       k   k    k          k    k             k                    0   r  rr   rr rr  r                                                             0
+0       kkkkk    kkkkkkkkkkkk                                     00     r r  r     rr r                                                             0
+0                                      k                         0       r  rr   rrr r r                                                             0
+0                                kkkkkkk                         0       rrrrrrrr r   r                                                              0
+0                            k   k      0000000kkkkkkkkkkkkkkkkkk        r r r r r   r                                                               0
+0        kk   kkk  k             k                                      r rrrrrrr   r                                                                0
+0                  kkkkkkkkk     k                                      r         rr                                                                 0
+0    k                    k      k                                      r     rrrr                                                                   0
+0                         k      k                                       rrrrr                                                                       0
+0                         k      k                                                                                                                   0
+0  k  kkkkkkkkkkkkkkkkkkkkk      k                                                                                                                   0
+0                                k                                                                                                                   0
+0    k                     k     k                                                                                                                   0
+0    kkkkkkkkkkkkkkkkkkkkkkk     k                                                                                                                   0
+0                                k                                                                                                                   0
+0                             k  k                                                                                                                   0
+0                                k                                                                                                                   0
+0                         kkk    k                                                                                                                   0
+0            kkkkkkkkkkkk        k                                                                                                                   0
+0                       k        k                                                                                                                   0
+0     kkkkkkkkkkkkk     k        k                                                                                                                   0
+0                       k        k                                                                                                                   0
+0                       k        k                                                                                                                   0
+0             kkkkkkkkkkk        k                                                                                                                   0
+0                                k                                                                                                                   0
+0                                k                                                                                                                   0
+0        k   k                   k                                                                                                                   0
+0                                k                                                                                                                   0
+0              kk                k                                                                                                                   0
+0                                k                                                                                                                   0
+0                                k                                                                                                                   0
+0                  kk            k                                                                                                                   0
+0                                k                                                                                                                   0
+0                                k                                                                                                                   0
+0          kkkkk                 k                                                                                                                   0
+0                                k                                                                                                                   0
+0                 k  k           k                                                                                                                   0
+0                                k                                                                                                                   0
+0                    k           k                                                                                                                   0
+0                k               k                                                                                                                   0
+0            k                   k       G                                                                                                           0
+0        k                       k                                                                                                                   0
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP

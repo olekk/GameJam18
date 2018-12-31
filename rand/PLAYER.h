@@ -11,12 +11,12 @@ extern float offsetX, offsetY;
 const int H = 80;   //wysokosc mapy
 const int W = 150;  //szerokosc
 
-extern array<string, H> Poziom1;
-extern array<string, H> Poziom2;
-extern array<string, H> Poziom4;
-extern array<string, H> Poziom3;
 extern array<string, H> TileMap;
 
+extern array<string, H> Poziom1;
+extern array<string, H> Poziom2;
+extern array<string, H> Poziom3;
+extern array<string, H> Poziom4;
 
 extern int aktualnyPoziom;
 extern bool cheat;

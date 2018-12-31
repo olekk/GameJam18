@@ -942,3 +942,22 @@
 	"PLAYER.h"
 	<iostream>
 
+1546267335 source:c:\users\olek\documents\github\gamejam18\rand\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<windows.h>
+	<iostream>
+	<string>
+	<sftools/Chronometer.hpp>
+	"PLAYER.h"
+	<fstream>
+
+1546265883 c:\users\olek\documents\github\gamejam18\rand\player.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1546201889 source:c:\users\olek\documents\github\gamejam18\rand\player.cpp
+	<SFML/Graphics.hpp>
+	"PLAYER.h"
+	<iostream>
+
